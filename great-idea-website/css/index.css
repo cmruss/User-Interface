@@ -64,3 +64,82 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav{
+	position: fixed;
+	padding: 30px 10px;
+	background-color: white;
+
+}nav a{
+	padding: 35px;
+	text-decoration: none;
+	
+}
+
+header{
+	display: inline-block;
+	width: 600px;
+	position: relative;
+	margin: 100px 50px;
+} 
+h1{
+	font-size: 72px;
+	padding-top: 300px;
+	width: 300px;
+	margin-right: 0 ;
+}
+.header-img{
+	margin-left: 300px;
+	top: 225px;
+	position: absolute;
+	margin-bottom: 50px;
+
+}
+
+.Upper-Content{
+	width: 900px;
+	position: relative;
+	margin: 50px;
+}
+
+.Features{
+	width: 400px;
+}
+
+.About{
+	width: 400px;
+	position: absolute;
+	right: 70px;
+	top: 0;
+}
+
+.middle-img{
+	margin: 50px;
+}
+
+.Lower-Content{
+	width: 900px;
+	position: relative;
+	margin: 50px;
+}
+
+.Services{
+	width: 280px;
+}
+
+.Product{
+	width: 280px;
+
+}
+
+.Vision{
+	width: 280px;
+}
+
+.Contact{
+	margin: 50px;
+}
+
+footer{
+	text-align: center;
+}
