@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin: 0 150px;
+}
 
 nav{
 	position: fixed;
@@ -95,6 +98,7 @@ nav a:hover {
 	background: lightgrey;
 	color: white;
 	transition: 0.3s;
+	border: 1px solid grey;
 }
 
 header{
@@ -105,7 +109,7 @@ header{
 } 
 h1{
 	font-size: 72px;
-	padding-top: 300px;
+	padding-top: 200px;
 	width: 300px; 
 	margin-right: 0;
 	margin-left: 100px;
@@ -113,16 +117,16 @@ h1{
 }
 .header-img{
 	margin-left: 200px;
-	top: 225px;
+	top: 125px;
 	position: absolute;
 	margin-bottom: 50px;
 
 }
 
 .Upper-Content{
-	width: 900px;
+	width: 880px;
 	position: relative;
-	margin: 50px;
+	margin: 0 50px;
 	padding-top:50px;
 	border-top: 1px solid black;
 }
@@ -135,7 +139,7 @@ h1{
 .About{
 	width: 400px;
 	display: inline-block;
-	margin-left: 50px;
+	margin-left: 60px;
 }
 
 .middle-img{
@@ -143,8 +147,8 @@ h1{
 }
 
 .Lower-Content{
-	width: 900px;
-	margin: 50px;
+	width: 880px;
+	margin: 0 50px;
 	padding-bottom: 50px;
 	border-bottom: 1px solid black;
 }
@@ -164,6 +168,7 @@ h1{
 .Vision{
 	width: 280px;
 	display: inline-block;
+	margin: 0 0 0 30px;
 }
 
 .Contact{
