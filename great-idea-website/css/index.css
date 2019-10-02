@@ -69,27 +69,50 @@ nav{
 	position: fixed;
 	padding: 30px 10px;
 	background-color: white;
-
-}nav a{
+	z-index: 999;
+}
+nav a{
 	padding: 35px;
 	text-decoration: none;
-	
+	color: grey;
+}
+
+nav a:hover {
+	border: 1px solid black;
+	transition: 0.3s;
+}
+
+.button{
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 0 30px;
+	margin-left: 175px;
+	margin-right: 0;
+}
+
+.button:hover {
+	background: lightgrey;
+	color: white;
+	transition: 0.3s;
 }
 
 header{
 	display: inline-block;
 	width: 600px;
 	position: relative;
-	margin: 100px 50px;
+	margin: 0 0 100px 50px;
 } 
 h1{
 	font-size: 72px;
 	padding-top: 300px;
-	width: 300px;
-	margin-right: 0 ;
+	width: 300px; 
+	margin-right: 0;
+	margin-left: 100px;
+	text-align: center;
 }
 .header-img{
-	margin-left: 300px;
+	margin-left: 200px;
 	top: 225px;
 	position: absolute;
 	margin-bottom: 50px;
@@ -100,17 +123,19 @@ h1{
 	width: 900px;
 	position: relative;
 	margin: 50px;
+	padding-top:50px;
+	border-top: 1px solid black;
 }
 
 .Features{
 	width: 400px;
+	display: inline-block;
 }
 
 .About{
 	width: 400px;
-	position: absolute;
-	right: 70px;
-	top: 0;
+	display: inline-block;
+	margin-left: 50px;
 }
 
 .middle-img{
@@ -119,27 +144,32 @@ h1{
 
 .Lower-Content{
 	width: 900px;
-	position: relative;
 	margin: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
 }
 
 .Services{
 	width: 280px;
+	display: inline-block;
+	padding: 5px;
 }
 
 .Product{
 	width: 280px;
-
+	display:inline-block;
+	padding: 0 18px;
 }
 
 .Vision{
 	width: 280px;
+	display: inline-block;
 }
 
 .Contact{
-	margin: 50px;
+	margin: 150px 0 50px 50px;
 }
 
 footer{
-	text-align: center;
+	margin: 0 0 150px 375px;
 }
